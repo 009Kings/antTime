@@ -13,7 +13,7 @@ div {
 button {
   display: block;
   margin: 1em auto;
-  padding: .8em;
+  padding: .5em;
   font-size: 18px;
 }
 
@@ -26,7 +26,7 @@ button {
 .light {
   width: 7em;
   height: 7em;
-  margin: .8em auto;
+  margin: .5em auto;
   border-radius: 50%;
   background: #666666;
 }
@@ -44,30 +44,30 @@ button {
 }
 
 #movin {
-  height: 8em;
+  height: 6em;
   position: relative;
   left: 0;
 }
 #movin2 {
-  height: 8em;
+  height: 6em;
   position: absolute;
   left: 0;
   bottom: 500px;
 }
 #movin3 {
-  height: 8em;
+  height: 6em;
   position: absolute;
   left: 0;
   bottom: 200px;
 }
 #movin4 {
-  height: 8em;
+  height: 6em;
   position: absolute;
   left: 0;
   bottom: 400px;
 }
 #movin5 {
-  height: 8em;
+  height: 6em;
   position: absolute;
   left: 0;
   bottom: 600px;
