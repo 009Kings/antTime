@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+div {
+  border: 1px solid black
+}
+
+button {
+  display: block;
+  margin: 1em auto;
+  padding: .5em;
+  font-size: 18px;
+}
+
+.container {
+  width: 10em;
+  margin: auto;
+  background: #b0b0b0;
+}
+
+.light {
+  width: 7em;
+  height: 7em;
+  margin: .5em auto;
+  border-radius: 50%;
+  background: #666666;
+}
+
+.red {
+  background: #F00;
+}
+
+.yellow {
+  background: #FF0;
+}
+
+.green {
+  background: #0F0;
+}
+
+#movin {
+  height: 5em;
+  position: relative;
+  left: 0;
+}
