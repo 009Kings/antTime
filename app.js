@@ -50,7 +50,7 @@ let loop = setInterval(function () {
       movinAnt5.src = `assets/alert-${forward}.png`
       console.log(movinAnt.src)
     }
-    forward ? movement+=3 : movement -=3
+    forward ? movement+=2 : movement -=2
     movinAnt.style.left = `${movement}vw`
     forward2 ? movement+=2 : movement -=2
     movinAnt2.style.left = `${movement}vw`
