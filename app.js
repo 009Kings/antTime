@@ -64,13 +64,13 @@ let loop = setInterval(function () {
 }, 100)
 
 button.addEventListener("click", function () {
-  alert(`SO YOU THOUGHT!!! YOU CAN NEVER STOP THESE SWEET SWEET ALERTS`)
-  alert(`WE ALL LOVE ALERTS`)
-  alert(`YOU ARE NOW PART OF THE ALERTS FAN CLUB`)
-});
-
-document.getElementById("stop").addEventListener("click", function () {
   alert(`HA THEY ARE NEVER ANNOYING AND WILL NEVER STOP`)
   alert(`EMBRACE THE ALERTS`)
   alert(`LOOK AT THESE SWEET SWEET ALERTS`)
+});
+
+document.getElementById("stop").addEventListener("click", function () {
+  alert(`SO YOU THOUGHT!!! YOU CAN NEVER STOP THESE SWEET SWEET ALERTS`)
+  alert(`WE ALL LOVE ALERTS`)
+  alert(`YOU ARE NOW PART OF THE ALERTS FAN CLUB`)
 })
